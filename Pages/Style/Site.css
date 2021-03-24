@@ -1,0 +1,109 @@
+
+/***FONTS***/
+@font-face{
+    src: url(../../Media/Fonts/Telegraf-Regular-400.otf);
+    font-family: Telegraf;
+}
+@font-face{
+    src: url(../../Media/Fonts/Telegraf-UltraBold-800.otf);
+    font-family: Telegraf;
+    font-weight: 800;
+}
+@font-face{
+    src: url(../../Media/Fonts/Telegraf-UltraLight-200.otf);
+    font-family: Telegraf;
+    font-weight: 200;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+@font-face{
+    src: url(../../Media/Fonts/Chunk\ Five\ Print.otf);
+    font-family: Chunk-Print;
+}
+
+@font-face{
+    src: url(../../Media/Fonts/ChunkFive-Regular.otf);
+    font-family: Chunk;
+}
+
+@font-face{
+    src: url(../../Media/Fonts/Kollektif.ttf);
+    font-family: Kol;
+}
+@font-face{
+    src: url(../../Media/Fonts/Kollektif-Bold.ttf);
+    font-family: Kol;
+    font-weight: 800; 
+}
+@font-face{
+    src: url(../../Media/Fonts/Kollektif-Italic.ttf);
+    font-family: Kol-I;
+}
+@font-face{
+    src: url(../../Media/Fonts/Kollektif-BoldItalic.ttf);
+    font-family: Kol-I;
+    font-weight: 800;
+}
+
+/***END FONTS***/
+
+body{   
+    font-family: Telegraf;   
+}
+
+button {
+    background-color: #bc1823;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30px;
+    font-family: Telegraf;
+    font-weight: 200;
+}
+
+.navbar{
+    background-color: #ff914d;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 2vw;
+    font-family: Telegraf;
+    font-weight: 800;
+    width: 100%;
+    height: 100%;
+    padding: 1% 0 1% 0;
+    border-right: 1px solid #f9f7dc;
+}
+
+.navbar a.active{
+
+    background-color: #bc1823;
+
+}
+
+.navbar a:hover{
+    color:#f9f7dc;
+}
+
+.title {
+    font-size: 4.5vw;
+    font-family: Telegraf;
+    font-weight: 800;
+    color: #763c00;
+}
+
+.para {
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #763c00;
+}
