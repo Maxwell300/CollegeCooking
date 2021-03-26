@@ -8,9 +8,9 @@ CURRENTLY WORKING ON GETTING THE LAYOUT & STYLES CORRECT
 ![Login Screen](https://i.imgur.com/YvmslYj.png)
 
 ===HOME SCREEN===
-![Home Screen](https://imgur.com/OxZ3pLK)
+![Home Screen](https://i.imgur.com/OxZ3pLK.png)
 
 ===INGREDIENTS SCREEN===
-![Ingredients Screen](https://imgur.com/H3EqpZk)
+![Ingredients Screen](https://i.imgur.com/H3EqpZk.png)
 
 
