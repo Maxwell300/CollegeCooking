@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ingredients</title>
+    <link rel="stylesheet" href="Style/Site.css" type="text/css">
+</head>
+<body style="background-color: #f9f7dc; margin: auto;">
+
+    <!--Navbar-->
+    <div class="navbar" style="display: flex; flex-direction: row; justify-content: space-evenly; ">
+        <a href="home.html">Home</a>
+        <a class="active" href="">My Ingredients</a> 
+        <a href="">My Recipes</a> 
+        <a href="">Fan Favorite Recipes</a> 
+        <input type="text" placeholder="Search for recipe">
+    </div>
+    <!--END Navbar-->
+
+    <div style="display: flex; margin: 5% 5% 5% 5%; justify-content: space-around;">
+
+        <div>
+            <div style="display: flex; flex-direction: row;">
+                <div style="margin: auto;">Create New Ingredient List</div>
+                <button>+</button>
+            </div>
+            <input style="height: 20vw; font-size: 1vw;" size="80" type="text" placeholder="You can type and add what ingredients you have here">
+        </div>
+        
+        <button style="max-height: 4vw; max-width: 10vw; margin-top: 10vw;">SUBMIT</button>
+
+        <div>
+            <div style="padding-bottom: 1vw; display: flex; flex-direction: row; padding-top: 1.3vw;">
+                <div style="margin: auto;">Edit Previous Ingredient List</div>
+                <select name="cars" id="cars">
+                    <option value="volvo">Ra-Man</option>
+                    <option value="saab">Pasta</option>
+                    <option value="mercedes">Dirt</option>
+                    <option value="audi">Fruit Salad</option>
+                </select>
+            </div>
+            <input style="height: 20vw; font-size: 1vw;" size="80" type="text" placeholder="You can add or remove ingredients you have from previous lists here">
+        </div>
+        
+    </div>
+
+</body>
+</html>
